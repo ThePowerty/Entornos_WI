@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: Entornos_WI_TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.085 sec <<< FAILURE!
+testOrdenaArray(Pruebas_Avanzadas_WI_Test)  Time elapsed: 0.018 sec  <<< ERROR!
+org.junit.runners.model.TestTimedOutException: test timed out after 1 milliseconds
+	at app//paqueteExamen.Entornos_WI.ordenaArray(Entornos_WI.java:32)
+	at app//Pruebas_Avanzadas_WI_Test.testOrdenaArray(Pruebas_Avanzadas_WI_Test.java:51)
+	at java.base@11.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base@11.0.12/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base@11.0.12/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base@11.0.12/java.lang.reflect.Method.invoke(Method.java:566)
+	at app//org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at app//org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at app//org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at app//org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at app//org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base@11.0.12/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base@11.0.12/java.lang.Thread.run(Thread.java:834)
+
